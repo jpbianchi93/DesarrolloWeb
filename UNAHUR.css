@@ -1,0 +1,254 @@
+@media screen and (min-width: 850px) {
+    body {
+        color: black;
+        background-color: whitesmoke;
+        text-align: left;
+        font-size: 14px;
+        line-height: 1.5;
+        margin: inherit;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .titulos{
+        display: flex;
+        margin: 10px 5px;
+        justify-content: center;
+    }
+
+    #titulo{
+        display: none;
+    }
+
+    h1 #logo {
+        vertical-align: middle;
+    }
+
+    #logo img {
+        padding: 0 5px;
+    }
+
+    a {
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+    #encabezado {
+        padding: 5px;
+        background-color: rgb(58, 58, 58);
+        display: flex;
+        position: static;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .social {
+        margin-bottom: 2px;
+    }
+
+    #search {
+        height: 38px;
+    }
+
+    .nav {
+        text-decoration: none;
+        padding: 2px;
+        
+    }
+
+    li {
+        padding: 0px 7px;
+    }
+
+    #buscador {
+        display: flex;
+    }
+
+    .search {
+        width: 150px;
+    }
+
+    #navegador {
+        background-color: rgb(74, 73, 73);
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    #contacto {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        justify-content: space-evenly;
+    }
+
+    footer {
+        padding: 5px;
+        background-color: rgb(58, 58, 58);
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #info {
+        width: 33.33%;
+    }
+
+    #mapa {
+        width: 66.67%
+    }
+
+    #ofertaAcademica {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        justify-content: center;
+    }
+
+    .card {
+        margin: 10px;
+        border-radius: 10px;
+        width: 250px;
+    }
+
+    .card-body{
+        color:rgb(18, 18, 18)
+    }
+
+    .card-body img{
+        width: 64px;
+    }
+
+    .container{
+        padding:5px;
+    }
+}
+
+
+@media screen and (max-width: 849px) {
+    body {
+        color: black;
+        background-color: whitesmoke;
+        text-align: left;
+        font-size: 14px;
+        line-height: 1.5;
+        margin: inherit;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    a {
+        color: aliceblue;
+        text-decoration: none;
+    }
+    li {
+        padding: 0px 7px;
+    }
+    .pb{
+        padding-bottom: 10px;
+    }
+    .titulos{
+        display: flex;
+        margin: 10px 5px;
+        justify-content: center;
+    }
+
+    /* header */
+    #tituloPpal{
+        display: none;
+    }
+    #encabezado
+     {
+        padding: 5px;
+        background-color: rgb(58, 58, 58);
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+    }
+    /* buscador */
+    #search {
+        height: 38px;
+    }
+    #buscador {
+        display: flex;
+        justify-content: center;
+    }
+    .search {
+        width: 150px;
+    }
+
+    /* logo */
+    #logo {
+        justify-self: center;
+    }
+  
+
+    /* social */
+    #social{
+        display: flex;
+        justify-content: space-around;
+    }
+    .social {
+        margin-bottom: 2px;
+        margin-left: 5px;
+    }
+  
+    /* navegador */
+    #navegador {
+        background-color: rgb(74, 73, 73);
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-content: center;
+    }
+    .nav {
+        text-decoration: none;
+        padding: 2px;
+        justify-content: center;
+    }
+
+  
+    /* footer */
+    #contacto {
+        display: grid;
+    }
+    footer {
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(74, 73, 73);
+        padding: 5px;
+    }
+    #mapa {
+        width: 66.67%
+    }
+    .contactoInput{
+        width: 300px;
+        justify-content: center;
+    }
+
+    #info {
+        width: 350px;
+        height: 350px;
+    }
+
+    
+    /* oferta académica */
+    #ofertaAcademica {
+        display: grid;
+    }
+    .card {
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    .card-body{
+        color:rgb(18, 18, 18)
+    }
+
+    .card-body img{
+        width: 64px;
+    }
+
+    .container{
+        padding:5px;
+    }
+   
+}
+
